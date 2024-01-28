@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  z-index: 0;
+  transform: translateY(-100vh);
+}
+
+.container {
+  z-index: 1;
+  color: #ffffff;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: HelveticaNeueCyr;
+}
+
+.container h1 {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.container p {
+  margin: 0;
+  font-size: 14px;
+}
